@@ -1,0 +1,11 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/Users/timhdavis/GitHub/Play! framework/PlayStartApp/conf/application.conf,/Users/timhdavis/GitHub/Play! framework/PlayStartApp/target/scala-2.11/classes/application.conf)[0m
+[0m[[0mdebug[0m] [0m	(/Users/timhdavis/GitHub/Play! framework/PlayStartApp/conf/cloudbees.conf,/Users/timhdavis/GitHub/Play! framework/PlayStartApp/target/scala-2.11/classes/cloudbees.conf)[0m
+[0m[[0mdebug[0m] [0m	(/Users/timhdavis/GitHub/Play! framework/PlayStartApp/conf/evolutions,/Users/timhdavis/GitHub/Play! framework/PlayStartApp/target/scala-2.11/classes/evolutions)[0m
+[0m[[0mdebug[0m] [0m	(/Users/timhdavis/GitHub/Play! framework/PlayStartApp/conf/mail.conf.example,/Users/timhdavis/GitHub/Play! framework/PlayStartApp/target/scala-2.11/classes/mail.conf.example)[0m
+[0m[[0mdebug[0m] [0m	(/Users/timhdavis/GitHub/Play! framework/PlayStartApp/conf/messages.en,/Users/timhdavis/GitHub/Play! framework/PlayStartApp/target/scala-2.11/classes/messages.en)[0m
+[0m[[0mdebug[0m] [0m	(/Users/timhdavis/GitHub/Play! framework/PlayStartApp/conf/messages.fr,/Users/timhdavis/GitHub/Play! framework/PlayStartApp/target/scala-2.11/classes/messages.fr)[0m
+[0m[[0mdebug[0m] [0m	(/Users/timhdavis/GitHub/Play! framework/PlayStartApp/conf/play.plugins,/Users/timhdavis/GitHub/Play! framework/PlayStartApp/target/scala-2.11/classes/play.plugins)[0m
+[0m[[0mdebug[0m] [0m	(/Users/timhdavis/GitHub/Play! framework/PlayStartApp/conf/routes,/Users/timhdavis/GitHub/Play! framework/PlayStartApp/target/scala-2.11/classes/routes)[0m
+[0m[[0mdebug[0m] [0m	(/Users/timhdavis/GitHub/Play! framework/PlayStartApp/conf/evolutions/default,/Users/timhdavis/GitHub/Play! framework/PlayStartApp/target/scala-2.11/classes/evolutions/default)[0m
+[0m[[0mdebug[0m] [0m	(/Users/timhdavis/GitHub/Play! framework/PlayStartApp/conf/evolutions/default/1.sql,/Users/timhdavis/GitHub/Play! framework/PlayStartApp/target/scala-2.11/classes/evolutions/default/1.sql)[0m

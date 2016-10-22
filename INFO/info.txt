@@ -1,0 +1,5 @@
+PlayStartApp found by Doug at:
+https://github.com/yesnault/PlayStartApp
+-There are some server errors when submitting forms.
+-The forms are in French, for unknown reasons.
+-App starts if using Lightbend Activator (open page by using “activator ui” command); open project by clicking on folder icon under “Open existing app” section.
