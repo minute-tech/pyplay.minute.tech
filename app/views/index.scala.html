@@ -12,12 +12,32 @@
     </div>
     
     <!--test form for technicians; to be moved; TODO: -->
-  
+  <br>Technicians
   <form action="@routes.TechnicianController.addTechnician()" method="post">
+    First Name:<br>
       <input type="text" name="firstName" />
+     <br>Last Name:<br>
       <input type="text" name="lastName" />
+      <br>
       <button>Add Technician</button>
   </form>
+  
+  <br>Support Requests
+  
+  <form action="@routes.SupportRequestController.addSupportRequest()" method="post">
+    Title:<br>
+      <input type="text" name="title" />
+      <br>Body:<br>
+      <input type="text" name="body" />
+      <br>Difficulty:<br>
+      <input type="number" name="difficulty" />
+      <br>
+      <button>Add Support Request</button>
+  </form>
+  
+  <br>
+  
+  <!-- end ADDED. -->
 
   <div class="col-lg-6">
     <div class="well">
