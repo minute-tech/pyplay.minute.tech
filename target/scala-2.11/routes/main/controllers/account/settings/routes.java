@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/Users/timhdavis/GitHub/Play! framework/PlayStartApp/conf/routes
-// @DATE:Sat Oct 22 14:50:30 PDT 2016
+// @DATE:Sat Oct 22 17:09:43 PDT 2016
 
 package controllers.account.settings;
 

@@ -41,8 +41,8 @@ Seq[Any](format.raw/*1.78*/("""
 
   """),_display_(/*9.4*/wflash()),format.raw/*9.12*/("""
   """),format.raw/*10.3*/("""<div class="col-lg-6">
-      Sed (saepe enim redeo ad Scipionem, cuius omnis sermo erat de amicitia) querebatur, quod omnibus in rebus homines diligentiores essent; capras et oves quot quisque haberet, dicere posse, amicos quot haberet, non posse dicere et in illis quidem parandis adhibere curam, in amicis eligendis neglegentis esse nec habere quasi signa quaedam et notas, quibus eos qui ad amicitias essent idonei, iudicarent. Sunt igitur firmi et stabiles et constantes eligendi; cuius generis est magna penuria. Et iudicare difficile est sane nisi expertum; experiendum autem est in ipsa amicitia. Ita praecurrit amicitia iudicium tollitque experiendi potestatem.
-  </div>
+      ...Page Info....
+    </div>
 
   <div class="col-lg-6">
     <div class="well">
@@ -53,6 +53,13 @@ Seq[Any](format.raw/*1.78*/("""
       """),_display_(/*20.8*/views/*20.13*/.html.account.signup.createFormOnly(signupForm)),format.raw/*20.60*/("""
     """),format.raw/*21.5*/("""</div>
   </div>
+  
+  <!--test form for technicians; to be moved; TODO: -->
+  
+  <form action=""""),_display_(/*26.18*/routes/*26.24*/.TechnicianController.addTechnician()),format.raw/*26.61*/("""" method="post">
+      <input type="text" name="firstName" />
+      <button>Add Technician</button>
+  </form>
 """)))}))
       }
     }
@@ -73,11 +80,11 @@ Seq[Any](format.raw/*1.78*/("""
 object index extends index_Scope0.index
               /*
                   -- GENERATED --
-                  DATE: Sat Oct 22 14:50:31 PDT 2016
+                  DATE: Sat Oct 22 17:09:43 PDT 2016
                   SOURCE: /Users/timhdavis/GitHub/Play! framework/PlayStartApp/app/views/index.scala.html
-                  HASH: 669d269e8b8199e5efd4c07a9e7510aab2573605
-                  MATRIX: 789->1|943->80|957->87|1037->91|1068->96|1108->110|1122->116|1179->153|1254->77|1282->189|1310->192|1337->211|1376->213|1406->218|1434->226|1464->229|2225->964|2262->980|2294->985|2358->1023|2372->1028|2440->1075|2472->1080
-                  LINES: 27->1|31->3|31->3|33->3|34->4|34->4|34->4|34->4|36->1|38->5|40->7|40->7|40->7|42->9|42->9|43->10|49->16|49->16|50->17|53->20|53->20|53->20|54->21
+                  HASH: 055cae24de467f4a22176cf876f75e24055d2f85
+                  MATRIX: 789->1|943->80|957->87|1037->91|1068->96|1108->110|1122->116|1179->153|1254->77|1282->189|1310->192|1337->211|1376->213|1406->218|1434->226|1464->229|1603->342|1640->358|1672->363|1736->401|1750->406|1818->453|1850->458|1972->553|1987->559|2045->596
+                  LINES: 27->1|31->3|31->3|33->3|34->4|34->4|34->4|34->4|36->1|38->5|40->7|40->7|40->7|42->9|42->9|43->10|49->16|49->16|50->17|53->20|53->20|53->20|54->21|59->26|59->26|59->26
                   -- GENERATED --
               */
           

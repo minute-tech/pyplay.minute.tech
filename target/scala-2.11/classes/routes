@@ -15,6 +15,12 @@ POST    /settings/password          controllers.account.settings.Password.runPas
 GET     /settings/email             controllers.account.settings.Email.index()
 POST    /settings/email             controllers.account.settings.Email.runEmail()
 
+# ==ADDED==:
+POST    /technician                controllers.TechnicianController.addTechnician()
+GET     /technicians               controllers.TechnicianController.getTechnicians()
+
+# ==END ADDED.==
+
 # Registers the user, sending an email to confirm the account.
 GET     /signup                     controllers.account.Signup.create()
 POST    /signup                     controllers.account.Signup.save()

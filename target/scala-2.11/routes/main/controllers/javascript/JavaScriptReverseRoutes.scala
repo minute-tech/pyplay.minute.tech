@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/Users/timhdavis/GitHub/Play! framework/PlayStartApp/conf/routes
-// @DATE:Sat Oct 22 14:50:30 PDT 2016
+// @DATE:Sat Oct 22 17:09:43 PDT 2016
 
 import play.api.routing.JavaScriptReverseRoute
 import play.api.mvc.{ QueryStringBindable, PathBindable, Call, JavascriptLiteral }
@@ -15,7 +15,37 @@ import _root_.play.libs.F
 package controllers.javascript {
   import ReverseRouteContext.empty
 
-  // @LINE:36
+  // @LINE:19
+  class ReverseTechnicianController(_prefix: => String) {
+
+    def _defaultPrefix: String = {
+      if (_prefix.endsWith("/")) "" else "/"
+    }
+
+  
+    // @LINE:20
+    def getTechnicians: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.TechnicianController.getTechnicians",
+      """
+        function() {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "technicians"})
+        }
+      """
+    )
+  
+    // @LINE:19
+    def addTechnician: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.TechnicianController.addTechnician",
+      """
+        function() {
+          return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "technician"})
+        }
+      """
+    )
+  
+  }
+
+  // @LINE:42
   class ReverseAssets(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -23,7 +53,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:36
+    // @LINE:42
     def at: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Assets.at",
       """

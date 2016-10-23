@@ -3,6 +3,12 @@
 
 # --- !Ups
 
+create table technician (
+  id                        bigint not null,
+  first_name                varchar(255),
+  constraint pk_technician primary key (id))
+;
+
 create table token (
   token                     varchar(255) not null,
   user_id                   bigint,
@@ -26,6 +32,8 @@ create table user (
   constraint pk_user primary key (id))
 ;
 
+create sequence technician_seq;
+
 create sequence token_seq;
 
 create sequence user_seq;
@@ -37,11 +45,15 @@ create sequence user_seq;
 
 SET REFERENTIAL_INTEGRITY FALSE;
 
+drop table if exists technician;
+
 drop table if exists token;
 
 drop table if exists user;
 
 SET REFERENTIAL_INTEGRITY TRUE;
+
+drop sequence if exists technician_seq;
 
 drop sequence if exists token_seq;
 
