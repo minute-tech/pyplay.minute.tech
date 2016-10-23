@@ -17,4 +17,6 @@ public class Technician extends Model
     public Long id;
     
     public String firstName;
+    public String lastName;
+    
 }

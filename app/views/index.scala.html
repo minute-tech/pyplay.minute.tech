@@ -10,6 +10,14 @@
   <div class="col-lg-6">
       ...Page Info....
     </div>
+    
+    <!--test form for technicians; to be moved; TODO: -->
+  
+  <form action="@routes.TechnicianController.addTechnician()" method="post">
+      <input type="text" name="firstName" />
+      <input type="text" name="lastName" />
+      <button>Add Technician</button>
+  </form>
 
   <div class="col-lg-6">
     <div class="well">
@@ -21,10 +29,5 @@
     </div>
   </div>
   
-  <!--test form for technicians; to be moved; TODO: -->
   
-  <form action="@routes.TechnicianController.addTechnician()" method="post">
-      <input type="text" name="firstName" />
-      <button>Add Technician</button>
-  </form>
 }

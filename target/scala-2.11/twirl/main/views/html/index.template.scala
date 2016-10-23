@@ -43,23 +43,26 @@ Seq[Any](format.raw/*1.78*/("""
   """),format.raw/*10.3*/("""<div class="col-lg-6">
       ...Page Info....
     </div>
+    
+    <!--test form for technicians; to be moved; TODO: -->
+  
+  <form action=""""),_display_(/*16.18*/routes/*16.24*/.TechnicianController.addTechnician()),format.raw/*16.61*/("""" method="post">
+      <input type="text" name="firstName" />
+      <input type="text" name="lastName" />
+      <button>Add Technician</button>
+  </form>
 
   <div class="col-lg-6">
     <div class="well">
-      """),_display_(/*16.8*/login(loginForm)),format.raw/*16.24*/("""
-    """),format.raw/*17.5*/("""</div>
+      """),_display_(/*24.8*/login(loginForm)),format.raw/*24.24*/("""
+    """),format.raw/*25.5*/("""</div>
 
     <div class="well">
-      """),_display_(/*20.8*/views/*20.13*/.html.account.signup.createFormOnly(signupForm)),format.raw/*20.60*/("""
-    """),format.raw/*21.5*/("""</div>
+      """),_display_(/*28.8*/views/*28.13*/.html.account.signup.createFormOnly(signupForm)),format.raw/*28.60*/("""
+    """),format.raw/*29.5*/("""</div>
   </div>
   
-  <!--test form for technicians; to be moved; TODO: -->
   
-  <form action=""""),_display_(/*26.18*/routes/*26.24*/.TechnicianController.addTechnician()),format.raw/*26.61*/("""" method="post">
-      <input type="text" name="firstName" />
-      <button>Add Technician</button>
-  </form>
 """)))}))
       }
     }
@@ -80,11 +83,11 @@ Seq[Any](format.raw/*1.78*/("""
 object index extends index_Scope0.index
               /*
                   -- GENERATED --
-                  DATE: Sat Oct 22 17:09:43 PDT 2016
+                  DATE: Sun Oct 23 10:48:37 PDT 2016
                   SOURCE: /Users/timhdavis/GitHub/Play! framework/PlayStartApp/app/views/index.scala.html
-                  HASH: 055cae24de467f4a22176cf876f75e24055d2f85
-                  MATRIX: 789->1|943->80|957->87|1037->91|1068->96|1108->110|1122->116|1179->153|1254->77|1282->189|1310->192|1337->211|1376->213|1406->218|1434->226|1464->229|1603->342|1640->358|1672->363|1736->401|1750->406|1818->453|1850->458|1972->553|1987->559|2045->596
-                  LINES: 27->1|31->3|31->3|33->3|34->4|34->4|34->4|34->4|36->1|38->5|40->7|40->7|40->7|42->9|42->9|43->10|49->16|49->16|50->17|53->20|53->20|53->20|54->21|59->26|59->26|59->26
+                  HASH: 0466dba60e06d751b9648c0b7e91517e06131eaa
+                  MATRIX: 789->1|943->80|957->87|1037->91|1068->96|1108->110|1122->116|1179->153|1254->77|1282->189|1310->192|1337->211|1376->213|1406->218|1434->226|1464->229|1631->369|1646->375|1704->412|1940->622|1977->638|2009->643|2073->681|2087->686|2155->733|2187->738
+                  LINES: 27->1|31->3|31->3|33->3|34->4|34->4|34->4|34->4|36->1|38->5|40->7|40->7|40->7|42->9|42->9|43->10|49->16|49->16|49->16|57->24|57->24|58->25|61->28|61->28|61->28|62->29
                   -- GENERATED --
               */
           

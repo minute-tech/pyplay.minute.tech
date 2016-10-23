@@ -16,10 +16,11 @@ import static play.libs.Json.toJson;
 public class TechnicianController extends Controller 
 {
 
-    // public Result index() 
-    // {
-    //     return ok(index.render(User.findByEmail(request().username())));
-    // }
+    public Result index()
+    {
+        //return ok(index.render(User.findByEmail(request().username())));
+        return redirect(routes.Application.index());
+    }
     
     public Result addTechnician()
     {

@@ -19,6 +19,9 @@ POST    /settings/email             controllers.account.settings.Email.runEmail(
 POST    /technician                controllers.TechnicianController.addTechnician()
 GET     /technicians               controllers.TechnicianController.getTechnicians()
 
+POST    /supportRequest             controllers.SupportRequestController.addSupportRequest()
+GET     /supportRequests            controllers.SupportRequestController.getSupportRequests()
+
 # ==END ADDED.==
 
 # Registers the user, sending an email to confirm the account.

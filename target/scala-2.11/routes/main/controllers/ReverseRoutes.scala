@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/Users/timhdavis/GitHub/Play! framework/PlayStartApp/conf/routes
-// @DATE:Sat Oct 22 17:09:43 PDT 2016
+// @DATE:Sun Oct 23 10:48:34 PDT 2016
 
 import play.api.mvc.{ QueryStringBindable, PathBindable, Call, JavascriptLiteral }
 import play.core.routing.{ HandlerDef, ReverseRouteContext, queryString, dynamicString }
@@ -34,32 +34,17 @@ package controllers {
   
   }
 
-  // @LINE:42
+  // @LINE:45
   class ReverseAssets(_prefix: => String) {
     def _defaultPrefix: String = {
       if (_prefix.endsWith("/")) "" else "/"
     }
 
   
-    // @LINE:42
+    // @LINE:45
     def at(file:String): Call = {
       implicit val _rrc = new ReverseRouteContext(Map(("path", "/public")))
       Call("GET", _prefix + { _defaultPrefix } + "assets/" + implicitly[PathBindable[String]].unbind("file", file))
-    }
-  
-  }
-
-  // @LINE:7
-  class ReverseDashboard(_prefix: => String) {
-    def _defaultPrefix: String = {
-      if (_prefix.endsWith("/")) "" else "/"
-    }
-
-  
-    // @LINE:7
-    def index(): Call = {
-      import ReverseRouteContext.empty
-      Call("GET", _prefix + { _defaultPrefix } + "dashboard")
     }
   
   }
@@ -87,6 +72,42 @@ package controllers {
     def authenticate(): Call = {
       import ReverseRouteContext.empty
       Call("POST", _prefix + { _defaultPrefix } + "login")
+    }
+  
+  }
+
+  // @LINE:22
+  class ReverseSupportRequestController(_prefix: => String) {
+    def _defaultPrefix: String = {
+      if (_prefix.endsWith("/")) "" else "/"
+    }
+
+  
+    // @LINE:23
+    def getSupportRequests(): Call = {
+      import ReverseRouteContext.empty
+      Call("GET", _prefix + { _defaultPrefix } + "supportRequests")
+    }
+  
+    // @LINE:22
+    def addSupportRequest(): Call = {
+      import ReverseRouteContext.empty
+      Call("POST", _prefix + { _defaultPrefix } + "supportRequest")
+    }
+  
+  }
+
+  // @LINE:7
+  class ReverseDashboard(_prefix: => String) {
+    def _defaultPrefix: String = {
+      if (_prefix.endsWith("/")) "" else "/"
+    }
+
+  
+    // @LINE:7
+    def index(): Call = {
+      import ReverseRouteContext.empty
+      Call("GET", _prefix + { _defaultPrefix } + "dashboard")
     }
   
   }

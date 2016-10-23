@@ -1,9 +1,9 @@
-2016-10-22 17:12:04,165 [INFO] from play.core.server.NettyServer in play-fork-run-akka.actor.default-dispatcher-5 - Listening for HTTP on /0:0:0:0:0:0:0:0:9000
-2016-10-22 17:12:13,755 [INFO] from application in ForkJoinPool-1-worker-1 - Creating Pool for datasource 'default'
-2016-10-22 17:12:13,993 [INFO] from play.api.db.DefaultDBApi in ForkJoinPool-1-worker-1 - Database [default] connected at jdbc:h2:mem:play
-2016-10-22 17:12:15,366 [ERROR] from application in netty-event-loop-3 - 
+2016-10-23 10:48:24,347 [INFO] from play.core.server.NettyServer in play-fork-run-akka.actor.default-dispatcher-4 - Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+2016-10-23 10:48:57,595 [INFO] from application in ForkJoinPool-1-worker-1 - Creating Pool for datasource 'default'
+2016-10-23 10:48:57,827 [INFO] from play.api.db.DefaultDBApi in ForkJoinPool-1-worker-1 - Database [default] connected at jdbc:h2:mem:play
+2016-10-23 10:48:59,382 [ERROR] from application in netty-event-loop-4 - 
 
-! @71nlcc9p3 - Internal server error, for (GET) [/] ->
+! @71o0l5k0h - Internal server error, for (GET) [/assets/javascripts/jquery/jquery-2.1.0.min.js] ->
  
 play.api.db.evolutions.InvalidDatabaseRevision: Database 'default' needs evolution![An SQL script need to be run on your database.]
 	at play.api.db.evolutions.ApplicationEvolutions$$anonfun$play$api$db$evolutions$ApplicationEvolutions$$runEvolutions$1.apply$mcV$sp(ApplicationEvolutions.scala:76)
@@ -55,9 +55,9 @@ play.api.db.evolutions.InvalidDatabaseRevision: Database 'default' needs evoluti
 	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
-2016-10-22 17:12:15,366 [ERROR] from application in netty-event-loop-1 - 
+2016-10-23 10:48:59,383 [ERROR] from application in netty-event-loop-2 - 
 
-! @71nlcc9p3 - Internal server error, for (GET) [/assets/javascripts/bootstrap.js] ->
+! @71o0l5k0h - Internal server error, for (GET) [/assets/javascripts/bootstrap.js] ->
  
 play.api.db.evolutions.InvalidDatabaseRevision: Database 'default' needs evolution![An SQL script need to be run on your database.]
 	at play.api.db.evolutions.ApplicationEvolutions$$anonfun$play$api$db$evolutions$ApplicationEvolutions$$runEvolutions$1.apply$mcV$sp(ApplicationEvolutions.scala:76)
@@ -109,9 +109,9 @@ play.api.db.evolutions.InvalidDatabaseRevision: Database 'default' needs evoluti
 	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
-2016-10-22 17:12:15,367 [ERROR] from application in netty-event-loop-2 - 
+2016-10-23 10:48:59,383 [ERROR] from application in netty-event-loop-1 - 
 
-! @71nlcc9p3 - Internal server error, for (GET) [/assets/javascripts/jquery/jquery-2.1.0.min.js] ->
+! @71o0l5k0h - Internal server error, for (GET) [/assets/javascripts/password.js] ->
  
 play.api.db.evolutions.InvalidDatabaseRevision: Database 'default' needs evolution![An SQL script need to be run on your database.]
 	at play.api.db.evolutions.ApplicationEvolutions$$anonfun$play$api$db$evolutions$ApplicationEvolutions$$runEvolutions$1.apply$mcV$sp(ApplicationEvolutions.scala:76)
@@ -163,9 +163,9 @@ play.api.db.evolutions.InvalidDatabaseRevision: Database 'default' needs evoluti
 	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
-2016-10-22 17:12:15,366 [ERROR] from application in netty-event-loop-4 - 
+2016-10-23 10:48:59,423 [ERROR] from application in netty-event-loop-3 - 
 
-! @71nlcc9p3 - Internal server error, for (GET) [/assets/fonts/fontawesome-webfont.woff?v=4.0.3] ->
+! @71o0l5k0h - Internal server error, for (GET) [/] ->
  
 play.api.db.evolutions.InvalidDatabaseRevision: Database 'default' needs evolution![An SQL script need to be run on your database.]
 	at play.api.db.evolutions.ApplicationEvolutions$$anonfun$play$api$db$evolutions$ApplicationEvolutions$$runEvolutions$1.apply$mcV$sp(ApplicationEvolutions.scala:76)
@@ -217,9 +217,9 @@ play.api.db.evolutions.InvalidDatabaseRevision: Database 'default' needs evoluti
 	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
-2016-10-22 17:12:15,677 [ERROR] from application in netty-event-loop-3 - 
+2016-10-23 10:48:59,713 [ERROR] from application in netty-event-loop-3 - 
 
-! @71nlcc9p3 - Internal server error, for (GET) [/assets/stylesheets/font-awesome.min.css] ->
+! @71o0l5k0h - Internal server error, for (GET) [/assets/fonts/fontawesome-webfont.woff?v=4.0.3] ->
  
 play.api.db.evolutions.InvalidDatabaseRevision: Database 'default' needs evolution![An SQL script need to be run on your database.]
 	at play.api.db.evolutions.ApplicationEvolutions$$anonfun$play$api$db$evolutions$ApplicationEvolutions$$runEvolutions$1.apply$mcV$sp(ApplicationEvolutions.scala:76)
@@ -271,9 +271,9 @@ play.api.db.evolutions.InvalidDatabaseRevision: Database 'default' needs evoluti
 	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
-2016-10-22 17:12:15,742 [ERROR] from application in netty-event-loop-4 - 
+2016-10-23 10:48:59,746 [ERROR] from application in netty-event-loop-3 - 
 
-! @71nlcc9p3 - Internal server error, for (GET) [/assets/javascripts/password.js] ->
+! @71o0l5k0h - Internal server error, for (GET) [/assets/images/progressImg1.png] ->
  
 play.api.db.evolutions.InvalidDatabaseRevision: Database 'default' needs evolution![An SQL script need to be run on your database.]
 	at play.api.db.evolutions.ApplicationEvolutions$$anonfun$play$api$db$evolutions$ApplicationEvolutions$$runEvolutions$1.apply$mcV$sp(ApplicationEvolutions.scala:76)
@@ -325,9 +325,9 @@ play.api.db.evolutions.InvalidDatabaseRevision: Database 'default' needs evoluti
 	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
-2016-10-22 17:12:15,763 [ERROR] from application in netty-event-loop-1 - 
+2016-10-23 10:48:59,816 [ERROR] from application in netty-event-loop-1 - 
 
-! @71nlcc9p3 - Internal server error, for (GET) [/assets/stylesheets/bootstrap.css] ->
+! @71o0l5k0h - Internal server error, for (GET) [/assets/stylesheets/font-awesome.min.css] ->
  
 play.api.db.evolutions.InvalidDatabaseRevision: Database 'default' needs evolution![An SQL script need to be run on your database.]
 	at play.api.db.evolutions.ApplicationEvolutions$$anonfun$play$api$db$evolutions$ApplicationEvolutions$$runEvolutions$1.apply$mcV$sp(ApplicationEvolutions.scala:76)
@@ -379,9 +379,9 @@ play.api.db.evolutions.InvalidDatabaseRevision: Database 'default' needs evoluti
 	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
-2016-10-22 17:12:15,763 [ERROR] from application in netty-event-loop-3 - 
+2016-10-23 10:48:59,855 [ERROR] from application in netty-event-loop-3 - 
 
-! @71nlcc9p3 - Internal server error, for (GET) [/assets/stylesheets/main.css] ->
+! @71o0l5k0h - Internal server error, for (GET) [/assets/stylesheets/bootstrap.css] ->
  
 play.api.db.evolutions.InvalidDatabaseRevision: Database 'default' needs evolution![An SQL script need to be run on your database.]
 	at play.api.db.evolutions.ApplicationEvolutions$$anonfun$play$api$db$evolutions$ApplicationEvolutions$$runEvolutions$1.apply$mcV$sp(ApplicationEvolutions.scala:76)
@@ -433,9 +433,11 @@ play.api.db.evolutions.InvalidDatabaseRevision: Database 'default' needs evoluti
 	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
-2016-10-22 17:12:15,810 [ERROR] from application in netty-event-loop-2 - 
+2016-10-23 10:49:02,457 [INFO] from application in ForkJoinPool-1-worker-1 - Creating Pool for datasource 'default'
+2016-10-23 10:49:02,466 [INFO] from play.api.db.DefaultDBApi in ForkJoinPool-1-worker-1 - Database [default] connected at jdbc:h2:mem:play
+2016-10-23 10:49:02,564 [ERROR] from application in netty-event-loop-4 - 
 
-! @71nlcc9p3 - Internal server error, for (GET) [/assets/images/progressImg1.png] ->
+! @71o0l5phc - Internal server error, for (GET) [/assets/stylesheets/main.css] ->
  
 play.api.db.evolutions.InvalidDatabaseRevision: Database 'default' needs evolution![An SQL script need to be run on your database.]
 	at play.api.db.evolutions.ApplicationEvolutions$$anonfun$play$api$db$evolutions$ApplicationEvolutions$$runEvolutions$1.apply$mcV$sp(ApplicationEvolutions.scala:76)
@@ -487,6 +489,7 @@ play.api.db.evolutions.InvalidDatabaseRevision: Database 'default' needs evoluti
 	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
-2016-10-22 17:12:19,641 [INFO] from application in ForkJoinPool-1-worker-1 - Creating Pool for datasource 'default'
-2016-10-22 17:12:19,649 [INFO] from play.api.db.DefaultDBApi in ForkJoinPool-1-worker-1 - Database [default] connected at jdbc:h2:mem:play
-2016-10-22 17:12:20,150 [INFO] from play.api.Play in ForkJoinPool-1-worker-1 - Application started (Dev)
+2016-10-23 10:49:06,666 [INFO] from application in ForkJoinPool-1-worker-1 - Creating Pool for datasource 'default'
+2016-10-23 10:49:06,683 [INFO] from play.api.db.DefaultDBApi in ForkJoinPool-1-worker-1 - Database [default] connected at jdbc:h2:mem:play
+2016-10-23 10:49:07,170 [INFO] from play.api.Play in ForkJoinPool-1-worker-1 - Application started (Dev)
+2016-10-23 10:50:37,405 [INFO] from application in play-fork-run-akka.actor.default-dispatcher-12 - Shutting down connection pool.

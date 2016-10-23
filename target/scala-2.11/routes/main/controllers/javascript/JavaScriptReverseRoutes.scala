@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/Users/timhdavis/GitHub/Play! framework/PlayStartApp/conf/routes
-// @DATE:Sat Oct 22 17:09:43 PDT 2016
+// @DATE:Sun Oct 23 10:48:34 PDT 2016
 
 import play.api.routing.JavaScriptReverseRoute
 import play.api.mvc.{ QueryStringBindable, PathBindable, Call, JavascriptLiteral }
@@ -45,7 +45,7 @@ package controllers.javascript {
   
   }
 
-  // @LINE:42
+  // @LINE:45
   class ReverseAssets(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -53,32 +53,12 @@ package controllers.javascript {
     }
 
   
-    // @LINE:42
+    // @LINE:45
     def at: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Assets.at",
       """
         function(file1) {
           return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "assets/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("file", file1)})
-        }
-      """
-    )
-  
-  }
-
-  // @LINE:7
-  class ReverseDashboard(_prefix: => String) {
-
-    def _defaultPrefix: String = {
-      if (_prefix.endsWith("/")) "" else "/"
-    }
-
-  
-    // @LINE:7
-    def index: JavaScriptReverseRoute = JavaScriptReverseRoute(
-      "controllers.Dashboard.index",
-      """
-        function() {
-          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "dashboard"})
         }
       """
     )
@@ -119,6 +99,56 @@ package controllers.javascript {
       """
         function() {
           return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "login"})
+        }
+      """
+    )
+  
+  }
+
+  // @LINE:22
+  class ReverseSupportRequestController(_prefix: => String) {
+
+    def _defaultPrefix: String = {
+      if (_prefix.endsWith("/")) "" else "/"
+    }
+
+  
+    // @LINE:23
+    def getSupportRequests: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.SupportRequestController.getSupportRequests",
+      """
+        function() {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "supportRequests"})
+        }
+      """
+    )
+  
+    // @LINE:22
+    def addSupportRequest: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.SupportRequestController.addSupportRequest",
+      """
+        function() {
+          return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "supportRequest"})
+        }
+      """
+    )
+  
+  }
+
+  // @LINE:7
+  class ReverseDashboard(_prefix: => String) {
+
+    def _defaultPrefix: String = {
+      if (_prefix.endsWith("/")) "" else "/"
+    }
+
+  
+    // @LINE:7
+    def index: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.Dashboard.index",
+      """
+        function() {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "dashboard"})
         }
       """
     )
