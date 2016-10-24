@@ -22,6 +22,8 @@ GET     /technicians               controllers.TechnicianController.getTechnicia
 POST    /supportRequest             controllers.SupportRequestController.addSupportRequest()
 GET     /supportRequests            controllers.SupportRequestController.getSupportRequests()
 
+GET    /supportRequest/new             controllers.SupportRequestController.create()
+
 # ==END ADDED.==
 
 # Registers the user, sending an email to confirm the account.

@@ -7,7 +7,7 @@ import com.avaje.ebean.Model;
 
 /**
  * @author timhdavis
- * @since 10/22/2016
+ * @since 10/23/2016
  */
  
 @Entity

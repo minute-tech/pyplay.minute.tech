@@ -1,9 +1,69 @@
-2016-10-23 13:30:18,655 [INFO] from play.core.server.NettyServer in play-fork-run-akka.actor.default-dispatcher-2 - Listening for HTTP on /0:0:0:0:0:0:0:0:9000
-2016-10-23 13:30:30,398 [INFO] from application in ForkJoinPool-1-worker-1 - Creating Pool for datasource 'default'
-2016-10-23 13:30:31,279 [INFO] from play.api.db.DefaultDBApi in ForkJoinPool-1-worker-1 - Database [default] connected at jdbc:h2:mem:play
-2016-10-23 13:30:33,946 [ERROR] from application in netty-event-loop-3 - 
+2016-10-23 16:50:39,650 [INFO] from play.core.server.NettyServer in play-fork-run-akka.actor.default-dispatcher-4 - Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+2016-10-23 16:51:17,806 [ERROR] from application in netty-event-loop-3 - 
 
-! @71o1gb9jn - Internal server error, for (GET) [/] ->
+! @71o2gkg9h - Internal server error, for (GET) [/] ->
+ 
+play.forkrun.protocol.Serializers$playExceptionPickler$$anon$1: Compilation error[not found: value loginForm]
+	at play.forkrun.protocol.Serializers$playExceptionPickler$.unpickle(Serializers.scala:159)
+	at play.forkrun.protocol.Serializers$PlayRunsupportReloaderCompileFailureUnpickler$macro$56$2$.unpickle(Serializers.scala:175)
+	at play.forkrun.protocol.Serializers$PlayRunsupportReloaderCompileResultUnpickler$macro$66$2$.unpickle(Serializers.scala:181)
+	at scala.pickling.Unpickler$class.unpickleEntry(Pickler.scala:79)
+	at play.forkrun.protocol.Serializers$PlayRunsupportReloaderCompileResultUnpickler$macro$66$2$.unpickleEntry(Serializers.scala:181)
+	at scala.pickling.functions$.unpickle(functions.scala:11)
+	at sbt.serialization.JsonValue$$anonfun$parse$1.apply(SerializedValue.scala:104)
+	at scala.util.Try$.apply(Try.scala:192)
+	at sbt.serialization.JsonValue.parse(SerializedValue.scala:104)
+	at sbt.protocol.BuildValue.value(Values.scala:11)
+	at sbt.protocol.TaskSuccess.resultWithCustomThrowable(Values.scala:65)
+	at sbt.protocol.TaskResult$class.result(Values.scala:56)
+	at sbt.protocol.TaskSuccess.result(Values.scala:62)
+	at play.forkrun.ForkRun$$anonfun$reloading$1.applyOrElse(ForkRun.scala:198)
+	at akka.actor.Actor$class.aroundReceive(Actor.scala:465)
+	at play.forkrun.ForkRun.aroundReceive(ForkRun.scala:153)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:516)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:487)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:254)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:221)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:231)
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+2016-10-23 16:52:36,281 [ERROR] from application in netty-event-loop-4 - 
+
+! @71o2gp2bl - Internal server error, for (GET) [/] ->
+ 
+play.forkrun.protocol.Serializers$playExceptionPickler$$anon$1: Compilation error[not found: value loginForm]
+	at play.forkrun.protocol.Serializers$playExceptionPickler$.unpickle(Serializers.scala:159)
+	at play.forkrun.protocol.Serializers$PlayRunsupportReloaderCompileFailureUnpickler$macro$56$2$.unpickle(Serializers.scala:175)
+	at play.forkrun.protocol.Serializers$PlayRunsupportReloaderCompileResultUnpickler$macro$66$2$.unpickle(Serializers.scala:181)
+	at scala.pickling.Unpickler$class.unpickleEntry(Pickler.scala:79)
+	at play.forkrun.protocol.Serializers$PlayRunsupportReloaderCompileResultUnpickler$macro$66$2$.unpickleEntry(Serializers.scala:181)
+	at scala.pickling.functions$.unpickle(functions.scala:11)
+	at sbt.serialization.JsonValue$$anonfun$parse$1.apply(SerializedValue.scala:104)
+	at scala.util.Try$.apply(Try.scala:192)
+	at sbt.serialization.JsonValue.parse(SerializedValue.scala:104)
+	at sbt.protocol.BuildValue.value(Values.scala:11)
+	at sbt.protocol.TaskSuccess.resultWithCustomThrowable(Values.scala:65)
+	at sbt.protocol.TaskResult$class.result(Values.scala:56)
+	at sbt.protocol.TaskSuccess.result(Values.scala:62)
+	at play.forkrun.ForkRun$$anonfun$reloading$1.applyOrElse(ForkRun.scala:198)
+	at akka.actor.Actor$class.aroundReceive(Actor.scala:465)
+	at play.forkrun.ForkRun.aroundReceive(ForkRun.scala:153)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:516)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:487)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:254)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:221)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:231)
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+2016-10-23 16:53:08,080 [INFO] from application in ForkJoinPool-1-worker-1 - Creating Pool for datasource 'default'
+2016-10-23 16:53:08,316 [INFO] from play.api.db.DefaultDBApi in ForkJoinPool-1-worker-1 - Database [default] connected at jdbc:h2:mem:play
+2016-10-23 16:53:09,791 [ERROR] from application in netty-event-loop-4 - 
+
+! @71o2h1012 - Internal server error, for (GET) [/] ->
  
 play.api.db.evolutions.InvalidDatabaseRevision: Database 'default' needs evolution![An SQL script need to be run on your database.]
 	at play.api.db.evolutions.ApplicationEvolutions$$anonfun$play$api$db$evolutions$ApplicationEvolutions$$runEvolutions$1.apply$mcV$sp(ApplicationEvolutions.scala:76)
@@ -55,15 +115,18 @@ play.api.db.evolutions.InvalidDatabaseRevision: Database 'default' needs evoluti
 	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
-2016-10-23 13:30:40,875 [INFO] from application in ForkJoinPool-1-worker-1 - Creating Pool for datasource 'default'
-2016-10-23 13:30:40,892 [INFO] from play.api.db.DefaultDBApi in ForkJoinPool-1-worker-1 - Database [default] connected at jdbc:h2:mem:play
-2016-10-23 13:30:41,793 [INFO] from play.api.Play in ForkJoinPool-1-worker-1 - Application started (Dev)
-2016-10-23 13:47:39,108 [INFO] from application in application-akka.actor.default-dispatcher-14 - Shutting down connection pool.
-2016-10-23 13:47:39,714 [INFO] from application in application-akka.actor.default-dispatcher-14 - Creating Pool for datasource 'default'
-2016-10-23 13:47:39,722 [INFO] from play.api.db.DefaultDBApi in application-akka.actor.default-dispatcher-14 - Database [default] connected at jdbc:h2:mem:play
-2016-10-23 13:47:40,117 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-14 - Application started (Dev)
-2016-10-23 13:48:11,365 [INFO] from application in application-akka.actor.default-dispatcher-2 - Shutting down connection pool.
-2016-10-23 13:48:11,587 [INFO] from application in application-akka.actor.default-dispatcher-2 - Creating Pool for datasource 'default'
-2016-10-23 13:48:11,596 [INFO] from play.api.db.DefaultDBApi in application-akka.actor.default-dispatcher-2 - Database [default] connected at jdbc:h2:mem:play
-2016-10-23 13:48:11,994 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-2 - Application started (Dev)
-2016-10-23 13:48:30,878 [INFO] from application in play-fork-run-akka.actor.default-dispatcher-11 - Shutting down connection pool.
+2016-10-23 16:53:21,848 [INFO] from application in ForkJoinPool-1-worker-0 - Creating Pool for datasource 'default'
+2016-10-23 16:53:21,858 [INFO] from play.api.db.DefaultDBApi in ForkJoinPool-1-worker-0 - Database [default] connected at jdbc:h2:mem:play
+2016-10-23 16:53:22,423 [INFO] from play.api.Play in ForkJoinPool-1-worker-0 - Application started (Dev)
+2016-10-23 16:54:17,251 [INFO] from application in application-akka.actor.default-dispatcher-8 - Shutting down connection pool.
+2016-10-23 16:54:17,498 [INFO] from application in application-akka.actor.default-dispatcher-8 - Creating Pool for datasource 'default'
+2016-10-23 16:54:17,509 [INFO] from play.api.db.DefaultDBApi in application-akka.actor.default-dispatcher-8 - Database [default] connected at jdbc:h2:mem:play
+2016-10-23 16:54:17,891 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-8 - Application started (Dev)
+2016-10-23 16:55:51,073 [INFO] from application in application-akka.actor.default-dispatcher-3 - Shutting down connection pool.
+2016-10-23 16:55:51,656 [INFO] from application in application-akka.actor.default-dispatcher-3 - Creating Pool for datasource 'default'
+2016-10-23 16:55:51,663 [INFO] from play.api.db.DefaultDBApi in application-akka.actor.default-dispatcher-3 - Database [default] connected at jdbc:h2:mem:play
+2016-10-23 16:55:51,909 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-3 - Application started (Dev)
+2016-10-23 17:04:23,001 [INFO] from application in application-akka.actor.default-dispatcher-16 - Shutting down connection pool.
+2016-10-23 17:04:23,623 [INFO] from application in application-akka.actor.default-dispatcher-16 - Creating Pool for datasource 'default'
+2016-10-23 17:04:23,629 [INFO] from play.api.db.DefaultDBApi in application-akka.actor.default-dispatcher-16 - Database [default] connected at jdbc:h2:mem:play
+2016-10-23 17:04:23,964 [INFO] from play.api.Play in application-akka.actor.default-dispatcher-16 - Application started (Dev)
