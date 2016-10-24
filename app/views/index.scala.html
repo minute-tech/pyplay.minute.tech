@@ -12,7 +12,7 @@
     </div>
     
     <!--test form for technicians; to be moved; TODO: -->
-  <br>Technicians
+  <h4>Technicians</h4>
   <form action="@routes.TechnicianController.addTechnician()" method="post">
     First Name:<br>
       <input type="text" name="firstName" />
@@ -21,8 +21,10 @@
       <br>
       <button>Add Technician</button>
   </form>
+  <a href="@routes.TechnicianController.getTechnicians()" class="btn">View all Technicians</a>
   
-  <br>Support Requests
+  
+  <h4>Support Requests</h4>
   
   <form action="@routes.SupportRequestController.addSupportRequest()" method="post">
     Title:<br>
@@ -35,7 +37,12 @@
       <button>Add Support Request</button>
   </form>
   
+  <a href="@routes.SupportRequestController.getSupportRequests()" class="btn">View all Support Requests</a>
+  
   <br>
+  
+  <a href="@routes.SupportRequestController.create()" class="btn">Get Support</a>
+  
   
   <!-- end ADDED. -->
 

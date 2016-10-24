@@ -45,7 +45,7 @@ Seq[Any](format.raw/*1.78*/("""
     </div>
     
     <!--test form for technicians; to be moved; TODO: -->
-  <br>Technicians
+  <h4>Technicians</h4>
   <form action=""""),_display_(/*16.18*/routes/*16.24*/.TechnicianController.addTechnician()),format.raw/*16.61*/("""" method="post">
     First Name:<br>
       <input type="text" name="firstName" />
@@ -54,10 +54,12 @@ Seq[Any](format.raw/*1.78*/("""
       <br>
       <button>Add Technician</button>
   </form>
+  <a href=""""),_display_(/*24.13*/routes/*24.19*/.TechnicianController.getTechnicians()),format.raw/*24.57*/("""" class="btn">View all Technicians</a>
   
-  <br>Support Requests
   
-  <form action=""""),_display_(/*27.18*/routes/*27.24*/.SupportRequestController.addSupportRequest()),format.raw/*27.69*/("""" method="post">
+  <h4>Support Requests</h4>
+  
+  <form action=""""),_display_(/*29.18*/routes/*29.24*/.SupportRequestController.addSupportRequest()),format.raw/*29.69*/("""" method="post">
     Title:<br>
       <input type="text" name="title" />
       <br>Body:<br>
@@ -68,18 +70,23 @@ Seq[Any](format.raw/*1.78*/("""
       <button>Add Support Request</button>
   </form>
   
+  <a href=""""),_display_(/*40.13*/routes/*40.19*/.SupportRequestController.getSupportRequests()),format.raw/*40.65*/("""" class="btn">View all Support Requests</a>
+  
   <br>
+  
+  <a href=""""),_display_(/*44.13*/routes/*44.19*/.SupportRequestController.create()),format.raw/*44.53*/("""" class="btn">Get Support</a>
+  
   
   <!-- end ADDED. -->
 
   <div class="col-lg-6">
     <div class="well">
-      """),_display_(/*44.8*/login(loginForm)),format.raw/*44.24*/("""
-    """),format.raw/*45.5*/("""</div>
+      """),_display_(/*51.8*/login(loginForm)),format.raw/*51.24*/("""
+    """),format.raw/*52.5*/("""</div>
 
     <div class="well">
-      """),_display_(/*48.8*/views/*48.13*/.html.account.signup.createFormOnly(signupForm)),format.raw/*48.60*/("""
-    """),format.raw/*49.5*/("""</div>
+      """),_display_(/*55.8*/views/*55.13*/.html.account.signup.createFormOnly(signupForm)),format.raw/*55.60*/("""
+    """),format.raw/*56.5*/("""</div>
   </div>
   
   
@@ -103,11 +110,11 @@ Seq[Any](format.raw/*1.78*/("""
 object index extends index_Scope0.index
               /*
                   -- GENERATED --
-                  DATE: Sun Oct 23 11:33:14 PDT 2016
+                  DATE: Sun Oct 23 17:29:49 PDT 2016
                   SOURCE: /Users/timhdavis/GitHub/Play! framework/PlayStartApp/app/views/index.scala.html
-                  HASH: 338b6ab9bc577f545a09cf5e5ba3af8655849be0
-                  MATRIX: 789->1|943->80|957->87|1037->91|1068->96|1108->110|1122->116|1179->153|1254->77|1282->189|1310->192|1337->211|1376->213|1406->218|1434->226|1464->229|1646->384|1661->390|1719->427|2001->682|2016->688|2082->733|2470->1095|2507->1111|2539->1116|2603->1154|2617->1159|2685->1206|2717->1211
-                  LINES: 27->1|31->3|31->3|33->3|34->4|34->4|34->4|34->4|36->1|38->5|40->7|40->7|40->7|42->9|42->9|43->10|49->16|49->16|49->16|60->27|60->27|60->27|77->44|77->44|78->45|81->48|81->48|81->48|82->49
+                  HASH: 22a7c7111639af2cef2296dd1583228daa07443b
+                  MATRIX: 789->1|943->80|957->87|1037->91|1068->96|1108->110|1122->116|1179->153|1254->77|1282->189|1310->192|1337->211|1376->213|1406->218|1434->226|1464->229|1651->389|1666->395|1724->432|1972->653|1987->659|2046->697|2166->790|2181->796|2247->841|2560->1127|2575->1133|2642->1179|2738->1248|2753->1254|2808->1288|2948->1402|2985->1418|3017->1423|3081->1461|3095->1466|3163->1513|3195->1518
+                  LINES: 27->1|31->3|31->3|33->3|34->4|34->4|34->4|34->4|36->1|38->5|40->7|40->7|40->7|42->9|42->9|43->10|49->16|49->16|49->16|57->24|57->24|57->24|62->29|62->29|62->29|73->40|73->40|73->40|77->44|77->44|77->44|84->51|84->51|85->52|88->55|88->55|88->55|89->56
                   -- GENERATED --
               */
           

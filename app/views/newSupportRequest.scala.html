@@ -7,23 +7,29 @@
             
 @form(routes.SupportRequestController.addSupportRequest(), 'class -> "form") {
 
+    <div class="container">
+        <div class="well">
+
+        <fieldset>
+            @inputText(
+                supportRequestForm("text"),
+                '_label -> "Title",
+                'class -> "form-control"
+            )
+            
+            @inputText(
+                supportRequestForm("body"),
+                '_label -> "Description of Problem",
+                'class -> "form-control"
+            )
+            
+        </fieldset>
     
-
-    <fieldset>
-        @inputText(
-            supportRequestForm("text"),
-            '_label -> "Title",
-            'class -> "form-control"
-        )
-        @inputText(
-            supportRequestForm("body"),
-            '_label -> "Description of Problem",
-            'class -> "form-control"
-        )
-    </fieldset>
-
-    <div class="form-actions">
-        <input type="submit" class="btn btn-primary" value="Submit">
-        <a href="@routes.Application.index()" class="btn">Cancel</a>
+        <div class="form-actions">
+            <input type="submit" class="btn btn-primary" value="Submit">
+            <a href="@routes.Application.index()" class="btn">Cancel</a>
+        </div>
+    
+     </div>
     </div>
 }
