@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
-// @SOURCE:/Users/timhdavis/GitHub/Play! framework/PlayStartApp/conf/routes
-// @DATE:Sun Oct 23 16:24:21 PDT 2016
+// @SOURCE:/Users/timhdavis/GitHub/minute.tech/conf/routes
+// @DATE:Sat Dec 03 16:53:56 PST 2016
 
 import play.api.routing.JavaScriptReverseRoute
 import play.api.mvc.{ QueryStringBindable, PathBindable, Call, JavascriptLiteral }
@@ -11,11 +11,11 @@ import play.core.routing.{ HandlerDef, ReverseRouteContext, queryString, dynamic
 import _root_.controllers.Assets.Asset
 import _root_.play.libs.F
 
-// @LINE:30
+// @LINE:34
 package controllers.account.javascript {
   import ReverseRouteContext.empty
 
-  // @LINE:30
+  // @LINE:34
   class ReverseSignup(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -23,7 +23,7 @@ package controllers.account.javascript {
     }
 
   
-    // @LINE:34
+    // @LINE:38
     def confirm: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.account.Signup.confirm",
       """
@@ -33,7 +33,7 @@ package controllers.account.javascript {
       """
     )
   
-    // @LINE:31
+    // @LINE:35
     def save: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.account.Signup.save",
       """
@@ -43,7 +43,7 @@ package controllers.account.javascript {
       """
     )
   
-    // @LINE:30
+    // @LINE:34
     def create: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.account.Signup.create",
       """
@@ -55,7 +55,7 @@ package controllers.account.javascript {
   
   }
 
-  // @LINE:37
+  // @LINE:41
   class ReverseReset(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -63,7 +63,7 @@ package controllers.account.javascript {
     }
 
   
-    // @LINE:42
+    // @LINE:46
     def runReset: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.account.Reset.runReset",
       """
@@ -73,7 +73,7 @@ package controllers.account.javascript {
       """
     )
   
-    // @LINE:37
+    // @LINE:41
     def ask: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.account.Reset.ask",
       """
@@ -83,7 +83,7 @@ package controllers.account.javascript {
       """
     )
   
-    // @LINE:41
+    // @LINE:45
     def reset: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.account.Reset.reset",
       """
@@ -93,7 +93,7 @@ package controllers.account.javascript {
       """
     )
   
-    // @LINE:38
+    // @LINE:42
     def runAsk: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.account.Reset.runAsk",
       """

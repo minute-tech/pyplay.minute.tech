@@ -67,7 +67,7 @@ Seq[Any](format.raw/*1.42*/("""
 object create extends create_Scope0.create
               /*
                   -- GENERATED --
-                  DATE: Sat Oct 22 14:50:31 PDT 2016
+                  DATE: Sat Dec 03 11:33:50 PST 2016
                   SOURCE: /Users/timhdavis/GitHub/Play! framework/PlayStartApp/app/views/account/signup/create.scala.html
                   HASH: edf139bb9099efe5a5493ac5d3259762da275761
                   MATRIX: 782->1|900->48|915->55|995->59|1030->68|1070->82|1084->88|1141->125|1220->41|1252->165|1280->168|1307->187|1346->189|1377->194|1516->306|1563->332|1599->341

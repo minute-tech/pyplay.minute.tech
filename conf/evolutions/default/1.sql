@@ -15,6 +15,8 @@ create table technician (
   id                        bigint not null,
   first_name                varchar(255),
   last_name                 varchar(255),
+  email                     varchar(255),
+  tier                      integer,
   constraint pk_technician primary key (id))
 ;
 

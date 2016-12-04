@@ -9,7 +9,7 @@
 		extra-sbtVersion="0.13"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20161022150143"/>
+		date="20161203110328"/>
 	<dependencies>
 		<module organisation="com.typesafe.sbt" name="sbt-play-ebean">
 			<revision name="1.0.0" status="release" pubdate="20150526223843" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/play-ebean" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="111">
@@ -180,12 +180,12 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.play" name="sbt-fork-run-plugin">
-			<revision name="2.5.0" status="release" pubdate="20160303081034" resolver="sbt-plugin-releases" artresolver="sbt-plugin-releases" homepage="https://playframework.com" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="true" searched="true" default="false" conf="compile, default(compile)" position="0">
+			<revision name="2.5.0" status="release" pubdate="20160303081034" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="0">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="successful" details="" size="2268" time="2176" location="/Users/timhdavis/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.play/sbt-fork-run-plugin/ivy-2.5.0.xml" searched="true" original-local-location="/Users/timhdavis/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.play/sbt-fork-run-plugin/ivy-2.5.0.xml.original" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/sbt-fork-run-plugin/scala_2.10/sbt_0.13/2.5.0/ivys/ivy.xml"/>
+				<metadata-artifact status="no" details="" size="2268" time="0" location="/Users/timhdavis/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.play/sbt-fork-run-plugin/ivy-2.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/sbt-fork-run-plugin/scala_2.10/sbt_0.13/2.5.0/ivys/ivy.xml"/>
 				<caller organisation="default" name="playstartapp-build" conf="compile, runtime-internal, runtime, optional" rev="2.5.0" rev-constraint-default="2.5.0" rev-constraint-dynamic="2.5.0" callerrev="0.1-SNAPSHOT" extra-scalaVersion="2.10" extra-sbtVersion="0.13"/>
 				<artifacts>
-					<artifact name="sbt-fork-run-plugin" type="jar" ext="jar" status="successful" details="" size="72614" time="3686" location="/Users/timhdavis/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.play/sbt-fork-run-plugin/jars/sbt-fork-run-plugin-2.5.0.jar">
+					<artifact name="sbt-fork-run-plugin" type="jar" ext="jar" status="no" details="" size="72614" time="0" location="/Users/timhdavis/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.play/sbt-fork-run-plugin/jars/sbt-fork-run-plugin-2.5.0.jar">
 						<origin-location is-local="false" location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/sbt-fork-run-plugin/scala_2.10/sbt_0.13/2.5.0/jars/sbt-fork-run-plugin.jar"/>
 					</artifact>
 				</artifacts>
@@ -1359,12 +1359,12 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.play" name="sbt-fork-run-protocol_2.10">
-			<revision name="2.5.0" status="release" pubdate="20160303080255" resolver="public" artresolver="public" homepage="https://playframework.com" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+			<revision name="2.5.0" status="release" pubdate="20160303080255" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="successful" details="" size="2941" time="205" location="/Users/timhdavis/.ivy2/cache/com.typesafe.play/sbt-fork-run-protocol_2.10/ivy-2.5.0.xml" searched="true" original-local-location="/Users/timhdavis/.ivy2/cache/com.typesafe.play/sbt-fork-run-protocol_2.10/ivy-2.5.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/sbt-fork-run-protocol_2.10/2.5.0/sbt-fork-run-protocol_2.10-2.5.0.pom"/>
+				<metadata-artifact status="no" details="" size="3478" time="0" location="/Users/timhdavis/.ivy2/cache/com.typesafe.play/sbt-fork-run-protocol_2.10/ivy-2.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/sbt-fork-run-protocol_2.10/2.5.0/sbt-fork-run-protocol_2.10-2.5.0.pom"/>
 				<caller organisation="com.typesafe.play" name="sbt-fork-run-plugin" conf="compile" rev="2.5.0" rev-constraint-default="2.5.0" rev-constraint-dynamic="2.5.0" callerrev="2.5.0"/>
 				<artifacts>
-					<artifact name="sbt-fork-run-protocol_2.10" type="jar" ext="jar" status="successful" details="" size="388559" time="3514" location="/Users/timhdavis/.ivy2/cache/com.typesafe.play/sbt-fork-run-protocol_2.10/jars/sbt-fork-run-protocol_2.10-2.5.0.jar">
+					<artifact name="sbt-fork-run-protocol_2.10" type="jar" ext="jar" status="no" details="" size="388559" time="0" location="/Users/timhdavis/.ivy2/cache/com.typesafe.play/sbt-fork-run-protocol_2.10/jars/sbt-fork-run-protocol_2.10-2.5.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/sbt-fork-run-protocol_2.10/2.5.0/sbt-fork-run-protocol_2.10-2.5.0.jar"/>
 					</artifact>
 				</artifacts>

@@ -7,15 +7,15 @@
 		revision="1.0-SNAPSHOT"
 		conf="fork-run"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, fork-run"
-		date="20161022150233"/>
+		date="20161203165356"/>
 	<dependencies>
 		<module organisation="com.typesafe.play" name="fork-run_2.11">
-			<revision name="2.5.0" status="release" pubdate="20160303080513" resolver="public" artresolver="public" homepage="https://playframework.com" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+			<revision name="2.5.0" status="release" pubdate="20160303080513" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="successful" details="" size="2055" time="1471" location="/Users/timhdavis/.ivy2/cache/com.typesafe.play/fork-run_2.11/ivy-2.5.0.xml" searched="true" original-local-location="/Users/timhdavis/.ivy2/cache/com.typesafe.play/fork-run_2.11/ivy-2.5.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/fork-run_2.11/2.5.0/fork-run_2.11-2.5.0.pom"/>
+				<metadata-artifact status="no" details="" size="2991" time="0" location="/Users/timhdavis/.ivy2/cache/com.typesafe.play/fork-run_2.11/ivy-2.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/fork-run_2.11/2.5.0/fork-run_2.11-2.5.0.pom"/>
 				<caller organisation="playstartapp" name="playstartapp_2.11" conf="fork-run" rev="2.5.0" rev-constraint-default="2.5.0" rev-constraint-dynamic="2.5.0" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="fork-run_2.11" type="jar" ext="jar" status="successful" details="" size="99455" time="4233" location="/Users/timhdavis/.ivy2/cache/com.typesafe.play/fork-run_2.11/jars/fork-run_2.11-2.5.0.jar">
+					<artifact name="fork-run_2.11" type="jar" ext="jar" status="no" details="" size="99455" time="0" location="/Users/timhdavis/.ivy2/cache/com.typesafe.play/fork-run_2.11/jars/fork-run_2.11-2.5.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/fork-run_2.11/2.5.0/fork-run_2.11-2.5.0.jar"/>
 					</artifact>
 				</artifacts>
@@ -82,12 +82,12 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.play" name="fork-run-protocol_2.11">
-			<revision name="2.5.0" status="release" pubdate="20160303080450" resolver="public" artresolver="public" homepage="https://playframework.com" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+			<revision name="2.5.0" status="release" pubdate="20160303080450" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="successful" details="" size="2925" time="841" location="/Users/timhdavis/.ivy2/cache/com.typesafe.play/fork-run-protocol_2.11/ivy-2.5.0.xml" searched="true" original-local-location="/Users/timhdavis/.ivy2/cache/com.typesafe.play/fork-run-protocol_2.11/ivy-2.5.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/fork-run-protocol_2.11/2.5.0/fork-run-protocol_2.11-2.5.0.pom"/>
+				<metadata-artifact status="no" details="" size="3462" time="0" location="/Users/timhdavis/.ivy2/cache/com.typesafe.play/fork-run-protocol_2.11/ivy-2.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/fork-run-protocol_2.11/2.5.0/fork-run-protocol_2.11-2.5.0.pom"/>
 				<caller organisation="com.typesafe.play" name="fork-run_2.11" conf="default, compile, runtime, master" rev="2.5.0" rev-constraint-default="2.5.0" rev-constraint-dynamic="2.5.0" callerrev="2.5.0"/>
 				<artifacts>
-					<artifact name="fork-run-protocol_2.11" type="jar" ext="jar" status="successful" details="" size="396779" time="3802" location="/Users/timhdavis/.ivy2/cache/com.typesafe.play/fork-run-protocol_2.11/jars/fork-run-protocol_2.11-2.5.0.jar">
+					<artifact name="fork-run-protocol_2.11" type="jar" ext="jar" status="no" details="" size="396779" time="0" location="/Users/timhdavis/.ivy2/cache/com.typesafe.play/fork-run-protocol_2.11/jars/fork-run-protocol_2.11-2.5.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/fork-run-protocol_2.11/2.5.0/fork-run-protocol_2.11-2.5.0.jar"/>
 					</artifact>
 				</artifacts>
@@ -245,12 +245,12 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-lang" name="scala-compiler">
-			<revision name="2.11.4" status="release" pubdate="20141023083523" resolver="public" artresolver="public" homepage="http://www.scala-lang.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+			<revision name="2.11.4" status="release" pubdate="20141023083523" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
 				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
-				<metadata-artifact status="successful" details="" size="2363" time="516" location="/Users/timhdavis/.ivy2/cache/org.scala-lang/scala-compiler/ivy-2.11.4.xml" searched="true" original-local-location="/Users/timhdavis/.ivy2/cache/org.scala-lang/scala-compiler/ivy-2.11.4.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.4/scala-compiler-2.11.4.pom"/>
+				<metadata-artifact status="no" details="" size="3131" time="0" location="/Users/timhdavis/.ivy2/cache/org.scala-lang/scala-compiler/ivy-2.11.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.4/scala-compiler-2.11.4.pom"/>
 				<caller organisation="org.scala-lang.modules" name="scala-pickling_2.11" conf="default, compile, runtime, master" rev="2.11.4" rev-constraint-default="2.11.4" rev-constraint-dynamic="2.11.4" callerrev="0.10.0"/>
 				<artifacts>
-					<artifact name="scala-compiler" type="jar" ext="jar" status="successful" details="" size="13619413" time="85685" location="/Users/timhdavis/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.11.4.jar">
+					<artifact name="scala-compiler" type="jar" ext="jar" status="no" details="" size="13619413" time="0" location="/Users/timhdavis/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.11.4.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.4/scala-compiler-2.11.4.jar"/>
 					</artifact>
 				</artifacts>
@@ -270,12 +270,12 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-lang.modules" name="scala-xml_2.11">
-			<revision name="1.0.2" status="release" pubdate="20140520011040" resolver="public" artresolver="public" homepage="http://www.scala-lang.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+			<revision name="1.0.2" status="release" pubdate="20140520011040" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
 				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
-				<metadata-artifact status="successful" details="" size="2518" time="739" location="/Users/timhdavis/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/ivy-1.0.2.xml" searched="true" original-local-location="/Users/timhdavis/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/ivy-1.0.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.pom"/>
+				<metadata-artifact status="no" details="" size="3011" time="0" location="/Users/timhdavis/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/ivy-1.0.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.pom"/>
 				<caller organisation="org.scala-lang" name="scala-compiler" conf="compile, runtime" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="2.11.4"/>
 				<artifacts>
-					<artifact name="scala-xml_2.11" type="bundle" ext="jar" status="successful" details="" size="648678" time="6838" location="/Users/timhdavis/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.2.jar">
+					<artifact name="scala-xml_2.11" type="bundle" ext="jar" status="no" details="" size="648678" time="0" location="/Users/timhdavis/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.2.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"/>
 					</artifact>
 				</artifacts>
@@ -289,7 +289,7 @@
 				<caller organisation="org.scala-lang.modules" name="scala-pickling_2.11" conf="default, compile, runtime, master" rev="2.11.4" rev-constraint-default="2.11.4" rev-constraint-dynamic="2.11.4" callerrev="0.10.0"/>
 				<caller organisation="com.typesafe.sbtrc" name="client-2-11" conf="compile" rev="2.11.5" rev-constraint-default="2.11.5" rev-constraint-dynamic="2.11.5" callerrev="0.3.1"/>
 				<artifacts>
-					<artifact name="scala-reflect" type="jar" ext="jar" status="successful" details="" size="4454732" time="34946" location="/Users/timhdavis/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.5.jar">
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="4454732" time="0" location="/Users/timhdavis/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.5.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.5/scala-reflect-2.11.5.jar"/>
 					</artifact>
 				</artifacts>
@@ -304,12 +304,12 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.play" name="run-support_2.11">
-			<revision name="2.5.0" status="release" pubdate="20160303080505" resolver="public" artresolver="public" homepage="https://playframework.com" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+			<revision name="2.5.0" status="release" pubdate="20160303080505" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="successful" details="" size="2930" time="595" location="/Users/timhdavis/.ivy2/cache/com.typesafe.play/run-support_2.11/ivy-2.5.0.xml" searched="true" original-local-location="/Users/timhdavis/.ivy2/cache/com.typesafe.play/run-support_2.11/ivy-2.5.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/run-support_2.11/2.5.0/run-support_2.11-2.5.0.pom"/>
+				<metadata-artifact status="no" details="" size="3435" time="0" location="/Users/timhdavis/.ivy2/cache/com.typesafe.play/run-support_2.11/ivy-2.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/run-support_2.11/2.5.0/run-support_2.11-2.5.0.pom"/>
 				<caller organisation="com.typesafe.play" name="fork-run-protocol_2.11" conf="compile, runtime" rev="2.5.0" rev-constraint-default="2.5.0" rev-constraint-dynamic="2.5.0" callerrev="2.5.0"/>
 				<artifacts>
-					<artifact name="run-support_2.11" type="jar" ext="jar" status="successful" details="" size="155751" time="2432" location="/Users/timhdavis/.ivy2/cache/com.typesafe.play/run-support_2.11/jars/run-support_2.11-2.5.0.jar">
+					<artifact name="run-support_2.11" type="jar" ext="jar" status="no" details="" size="155751" time="0" location="/Users/timhdavis/.ivy2/cache/com.typesafe.play/run-support_2.11/jars/run-support_2.11-2.5.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/run-support_2.11/2.5.0/run-support_2.11-2.5.0.jar"/>
 					</artifact>
 				</artifacts>

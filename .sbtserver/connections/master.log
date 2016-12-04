@@ -1,0 +1,7 @@
+New log file opened at Sat Dec 03 16:52:58 PST 2016 by 1953@tim-daviss-macbook.local
+Taking next connection to: 52985
+New client attempting to connect on port: 52986-52985
+  Address = /192.168.0.3:52985
+This client on port 52986 has uuid 21b295d8-4aa4-4a81-aae6-dc14e59d3a5d configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-21b295d8-4aa4-4a81-aae6-dc14e59d3a5d
+Taking next connection to: 52985

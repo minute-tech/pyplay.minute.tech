@@ -29,7 +29,7 @@ import java.util.UUID;
 public class Token extends Model {
 
     // Reset tokens will expire after a day.
-    private static final int EXPIRATION_DAYS = 1;
+    private static int EXPIRATION_DAYS = 1;//problem with keyword "final"?://private static final int EXPIRATION_DAYS = 1;
 
 
     public enum TypeToken {

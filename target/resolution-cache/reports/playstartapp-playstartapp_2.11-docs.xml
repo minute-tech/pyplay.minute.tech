@@ -7,7 +7,7 @@
 		revision="1.0-SNAPSHOT"
 		conf="docs"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, fork-run"
-		date="20161022150233"/>
+		date="20161203165356"/>
 	<dependencies>
 		<module organisation="com.typesafe.play" name="play-omnidoc_2.11">
 			<revision name="2.5.0" status="release" pubdate="20160304010304" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/omnidoc" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
@@ -619,7 +619,7 @@
 		</module>
 		<module organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jsr310">
 			<revision name="2.7.1" status="release" pubdate="20160202090108" resolver="public" artresolver="public" homepage="http://wiki.fasterxml.com/JacksonModuleJSR310" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
-				<metadata-artifact status="successful" details="" size="5536" time="979" location="/Users/timhdavis/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/ivy-2.7.1.xml" searched="true" original-local-location="/Users/timhdavis/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/ivy-2.7.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.7.1/jackson-datatype-jsr310-2.7.1.pom"/>
+				<metadata-artifact status="successful" details="" size="5536" time="140" location="/Users/timhdavis/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/ivy-2.7.1.xml" searched="true" original-local-location="/Users/timhdavis/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/ivy-2.7.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.7.1/jackson-datatype-jsr310-2.7.1.pom"/>
 				<caller organisation="com.typesafe.play" name="play-json_2.11" conf="compile, runtime" rev="2.7.1" rev-constraint-default="2.7.1" rev-constraint-dynamic="2.7.1" callerrev="2.5.0"/>
 				<caller organisation="com.typesafe.play" name="play_2.11" conf="compile, runtime" rev="2.7.1" rev-constraint-default="2.7.1" rev-constraint-dynamic="2.7.1" callerrev="2.5.0"/>
 				<artifacts>
@@ -631,7 +631,7 @@
 		</module>
 		<module organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jdk8">
 			<revision name="2.7.1" status="release" pubdate="20160202090418" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
-				<metadata-artifact status="successful" details="" size="2732" time="1561" location="/Users/timhdavis/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/ivy-2.7.1.xml" searched="true" original-local-location="/Users/timhdavis/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/ivy-2.7.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.7.1/jackson-datatype-jdk8-2.7.1.pom"/>
+				<metadata-artifact status="successful" details="" size="2732" time="207" location="/Users/timhdavis/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/ivy-2.7.1.xml" searched="true" original-local-location="/Users/timhdavis/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/ivy-2.7.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.7.1/jackson-datatype-jdk8-2.7.1.pom"/>
 				<caller organisation="com.typesafe.play" name="play-json_2.11" conf="compile, runtime" rev="2.7.1" rev-constraint-default="2.7.1" rev-constraint-dynamic="2.7.1" callerrev="2.5.0"/>
 				<caller organisation="com.typesafe.play" name="play_2.11" conf="compile, runtime" rev="2.7.1" rev-constraint-default="2.7.1" rev-constraint-dynamic="2.7.1" callerrev="2.5.0"/>
 				<artifacts>
@@ -643,7 +643,7 @@
 		</module>
 		<module organisation="com.fasterxml.jackson.core" name="jackson-databind">
 			<revision name="2.7.1" status="release" pubdate="20160201221612" resolver="public" artresolver="public" homepage="http://github.com/FasterXML/jackson" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
-				<metadata-artifact status="successful" details="" size="5192" time="546" location="/Users/timhdavis/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/ivy-2.7.1.xml" searched="true" original-local-location="/Users/timhdavis/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/ivy-2.7.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.7.1/jackson-databind-2.7.1.pom"/>
+				<metadata-artifact status="successful" details="" size="5192" time="97" location="/Users/timhdavis/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/ivy-2.7.1.xml" searched="true" original-local-location="/Users/timhdavis/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/ivy-2.7.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.7.1/jackson-databind-2.7.1.pom"/>
 				<caller organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jdk8" conf="compile, runtime" rev="2.7.1" rev-constraint-default="2.7.1" rev-constraint-dynamic="2.7.1" callerrev="2.7.1"/>
 				<caller organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jsr310" conf="compile, runtime" rev="2.7.1" rev-constraint-default="2.7.1" rev-constraint-dynamic="2.7.1" callerrev="2.7.1"/>
 				<caller organisation="com.typesafe.play" name="play-json_2.11" conf="compile, runtime" rev="2.7.1" rev-constraint-default="2.7.1" rev-constraint-dynamic="2.7.1" callerrev="2.5.0"/>
@@ -657,7 +657,7 @@
 		</module>
 		<module organisation="com.fasterxml.jackson.core" name="jackson-annotations">
 			<revision name="2.7.1" status="release" pubdate="20160201220516" resolver="public" artresolver="public" homepage="http://github.com/FasterXML/jackson" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
-				<metadata-artifact status="successful" details="" size="1454" time="281" location="/Users/timhdavis/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/ivy-2.7.1.xml" searched="true" original-local-location="/Users/timhdavis/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/ivy-2.7.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.7.1/jackson-annotations-2.7.1.pom"/>
+				<metadata-artifact status="successful" details="" size="1454" time="93" location="/Users/timhdavis/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/ivy-2.7.1.xml" searched="true" original-local-location="/Users/timhdavis/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/ivy-2.7.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.7.1/jackson-annotations-2.7.1.pom"/>
 				<caller organisation="com.fasterxml.jackson.core" name="jackson-databind" conf="compile, runtime" rev="2.7.0" rev-constraint-default="2.7.0" rev-constraint-dynamic="2.7.0" callerrev="2.7.1"/>
 				<caller organisation="com.typesafe.play" name="play-json_2.11" conf="compile, runtime" rev="2.7.1" rev-constraint-default="2.7.1" rev-constraint-dynamic="2.7.1" callerrev="2.5.0"/>
 				<caller organisation="com.typesafe.play" name="play_2.11" conf="compile, runtime" rev="2.7.1" rev-constraint-default="2.7.1" rev-constraint-dynamic="2.7.1" callerrev="2.5.0"/>
@@ -676,7 +676,7 @@
 		</module>
 		<module organisation="com.fasterxml.jackson.core" name="jackson-core">
 			<revision name="2.7.1" status="release" pubdate="20160201221020" resolver="public" artresolver="public" homepage="https://github.com/FasterXML/jackson-core" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
-				<metadata-artifact status="successful" details="" size="5062" time="2455" location="/Users/timhdavis/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/ivy-2.7.1.xml" searched="true" original-local-location="/Users/timhdavis/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/ivy-2.7.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.7.1/jackson-core-2.7.1.pom"/>
+				<metadata-artifact status="successful" details="" size="5062" time="92" location="/Users/timhdavis/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/ivy-2.7.1.xml" searched="true" original-local-location="/Users/timhdavis/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/ivy-2.7.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.7.1/jackson-core-2.7.1.pom"/>
 				<caller organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jdk8" conf="compile, runtime" rev="2.7.1" rev-constraint-default="2.7.1" rev-constraint-dynamic="2.7.1" callerrev="2.7.1"/>
 				<caller organisation="com.fasterxml.jackson.core" name="jackson-databind" conf="compile, runtime" rev="2.7.1" rev-constraint-default="2.7.1" rev-constraint-dynamic="2.7.1" callerrev="2.7.1"/>
 				<caller organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jsr310" conf="compile, runtime" rev="2.7.1" rev-constraint-default="2.7.1" rev-constraint-dynamic="2.7.1" callerrev="2.7.1"/>

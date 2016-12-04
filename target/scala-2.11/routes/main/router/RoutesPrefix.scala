@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
-// @SOURCE:/Users/timhdavis/GitHub/Play! framework/PlayStartApp/conf/routes
-// @DATE:Sun Oct 23 16:24:21 PDT 2016
+// @SOURCE:/Users/timhdavis/GitHub/minute.tech/conf/routes
+// @DATE:Sat Dec 03 16:53:56 PST 2016
 
 
 package router {

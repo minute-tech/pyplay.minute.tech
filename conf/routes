@@ -5,6 +5,7 @@
 # Home page
 GET     /                           controllers.Application.index()
 GET     /dashboard                  controllers.Dashboard.index()
+# ^ was: controllers.Dashboard.index()
 
 POST    /login                      controllers.Application.authenticate()
 GET     /logout                     controllers.Application.logout()
@@ -23,6 +24,9 @@ POST    /supportRequest             controllers.SupportRequestController.addSupp
 GET     /supportRequests            controllers.SupportRequestController.getSupportRequests()
 
 GET    /supportRequest/new             controllers.SupportRequestController.create()
+
+# Added login: TODO
+GET    /login                           controllers.Application.index()
 
 # ==END ADDED.==
 

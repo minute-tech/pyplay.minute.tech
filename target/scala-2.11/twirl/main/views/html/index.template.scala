@@ -52,14 +52,20 @@ Seq[Any](format.raw/*1.78*/("""
      <br>Last Name:<br>
       <input type="text" name="lastName" />
       <br>
+      <br>Email:<br>
+      <input type="text" name="email" />
+      <br>
+      <br>Tier:<br>
+      <input type="text" name="tier" />
+      <br>
       <button>Add Technician</button>
   </form>
-  <a href=""""),_display_(/*24.13*/routes/*24.19*/.TechnicianController.getTechnicians()),format.raw/*24.57*/("""" class="btn">View all Technicians</a>
+  <a href=""""),_display_(/*30.13*/routes/*30.19*/.TechnicianController.getTechnicians()),format.raw/*30.57*/("""" class="btn">View all Technicians</a>
   
   
   <h4>Support Requests</h4>
   
-  <form action=""""),_display_(/*29.18*/routes/*29.24*/.SupportRequestController.addSupportRequest()),format.raw/*29.69*/("""" method="post">
+  <form action=""""),_display_(/*35.18*/routes/*35.24*/.SupportRequestController.addSupportRequest()),format.raw/*35.69*/("""" method="post">
     Title:<br>
       <input type="text" name="title" />
       <br>Body:<br>
@@ -70,23 +76,23 @@ Seq[Any](format.raw/*1.78*/("""
       <button>Add Support Request</button>
   </form>
   
-  <a href=""""),_display_(/*40.13*/routes/*40.19*/.SupportRequestController.getSupportRequests()),format.raw/*40.65*/("""" class="btn">View all Support Requests</a>
+  <a href=""""),_display_(/*46.13*/routes/*46.19*/.SupportRequestController.getSupportRequests()),format.raw/*46.65*/("""" class="btn">View all Support Requests</a>
   
   <br>
   
-  <a href=""""),_display_(/*44.13*/routes/*44.19*/.SupportRequestController.create()),format.raw/*44.53*/("""" class="btn">Get Support</a>
+  <a href=""""),_display_(/*50.13*/routes/*50.19*/.SupportRequestController.create()),format.raw/*50.53*/("""" class="btn">Get Support</a>
   
   
   <!-- end ADDED. -->
 
   <div class="col-lg-6">
     <div class="well">
-      """),_display_(/*51.8*/login(loginForm)),format.raw/*51.24*/("""
-    """),format.raw/*52.5*/("""</div>
+      """),_display_(/*57.8*/login(loginForm)),format.raw/*57.24*/("""
+    """),format.raw/*58.5*/("""</div>
 
     <div class="well">
-      """),_display_(/*55.8*/views/*55.13*/.html.account.signup.createFormOnly(signupForm)),format.raw/*55.60*/("""
-    """),format.raw/*56.5*/("""</div>
+      """),_display_(/*61.8*/views/*61.13*/.html.account.signup.createFormOnly(signupForm)),format.raw/*61.60*/("""
+    """),format.raw/*62.5*/("""</div>
   </div>
   
   
@@ -110,11 +116,11 @@ Seq[Any](format.raw/*1.78*/("""
 object index extends index_Scope0.index
               /*
                   -- GENERATED --
-                  DATE: Sun Oct 23 17:29:49 PDT 2016
+                  DATE: Sat Dec 03 13:28:55 PST 2016
                   SOURCE: /Users/timhdavis/GitHub/Play! framework/PlayStartApp/app/views/index.scala.html
-                  HASH: 22a7c7111639af2cef2296dd1583228daa07443b
-                  MATRIX: 789->1|943->80|957->87|1037->91|1068->96|1108->110|1122->116|1179->153|1254->77|1282->189|1310->192|1337->211|1376->213|1406->218|1434->226|1464->229|1651->389|1666->395|1724->432|1972->653|1987->659|2046->697|2166->790|2181->796|2247->841|2560->1127|2575->1133|2642->1179|2738->1248|2753->1254|2808->1288|2948->1402|2985->1418|3017->1423|3081->1461|3095->1466|3163->1513|3195->1518
-                  LINES: 27->1|31->3|31->3|33->3|34->4|34->4|34->4|34->4|36->1|38->5|40->7|40->7|40->7|42->9|42->9|43->10|49->16|49->16|49->16|57->24|57->24|57->24|62->29|62->29|62->29|73->40|73->40|73->40|77->44|77->44|77->44|84->51|84->51|85->52|88->55|88->55|88->55|89->56
+                  HASH: e7c5230671e7c325d3052abf4c3b1c3430f8c9c3
+                  MATRIX: 789->1|943->80|957->87|1037->91|1068->96|1108->110|1122->116|1179->153|1254->77|1282->189|1310->192|1337->211|1376->213|1406->218|1434->226|1464->229|1651->389|1666->395|1724->432|2116->797|2131->803|2190->841|2310->934|2325->940|2391->985|2704->1271|2719->1277|2786->1323|2882->1392|2897->1398|2952->1432|3092->1546|3129->1562|3161->1567|3225->1605|3239->1610|3307->1657|3339->1662
+                  LINES: 27->1|31->3|31->3|33->3|34->4|34->4|34->4|34->4|36->1|38->5|40->7|40->7|40->7|42->9|42->9|43->10|49->16|49->16|49->16|63->30|63->30|63->30|68->35|68->35|68->35|79->46|79->46|79->46|83->50|83->50|83->50|90->57|90->57|91->58|94->61|94->61|94->61|95->62
                   -- GENERATED --
               */
           

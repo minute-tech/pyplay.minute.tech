@@ -19,4 +19,7 @@ public class Technician extends Model
     public String firstName;
     public String lastName;
     
+    public String email;
+    public int tier;
+    
 }
